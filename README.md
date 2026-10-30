@@ -5,10 +5,14 @@ Demonstração final do projeto  'Pedidão'
   <figcaption><em>Figura 1: Tela do Cardápio do Pedidão</em></figcaption>
 </figure>
 
+
+
 <figure>
   <img width="1604" height="690" src="https://github.com/user-attachments/assets/44b3e7ae-62aa-4fcb-ac3a-2d7afe80128e" />
   <figcaption><em>Figura 2: Página de Clientes</em></figcaption>
 </figure>
+
+
 
 <figure>
   <img width="1603" height="695" src="https://github.com/user-attachments/assets/0defca7a-e273-4841-8d39-20e923d6bb9e" />
