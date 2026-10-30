@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidão</title>
+    <link rel="stylesheet" href="{% static 'pedidos/style.css' %}">
+</head>
+<body>
+
+    <nav>
+        <a href="{% url 'cardapio' %}">Cardápio</a> |
+        <a href="{% url 'clientes' %}">Nossos clientes</a> |
+        <a href="{% url 'pedidos' %}">Pedidos</a>
+    </nav>
+
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+
+</body>
+</html>

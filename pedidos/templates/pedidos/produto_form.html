@@ -1,0 +1,11 @@
+{% extends 'pedidos/base.html' %}
+
+{% block conteudo %}
+    <h1>Novo produto</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Salvar</button>
+    </form>
+{% endblock %}

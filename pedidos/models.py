@@ -23,3 +23,5 @@ class Pedido(models.Model):
 
     def __str__(self):
         return f"Pedido {self.id} - {self.cliente.nome}"
+    
+    
